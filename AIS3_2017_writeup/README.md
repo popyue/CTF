@@ -27,7 +27,7 @@ CTF/AIS3_2017/Pre_exam/Write_up.md
 但其實這一個會誤導人，該題根本和這個圖檔無關，只是這裡依然給了我一個想法是flag可能會是在目錄下的其他圖檔。
 再往其他方向去看，找了一下**網站的header**，
 
-![misc2](./CTF/AIS3_2017_writeup/pic/misc2.jpg)
+![misc2](/pic/misc2.jpg)
 
 將header 裡看到的密文帶進base64解碼
 得到**S74G32.php**
@@ -35,7 +35,7 @@ CTF/AIS3_2017/Pre_exam/Write_up.md
 
     https://quiz.ais3.org:31532/S74G32.php
 
-![misc2flag](./CTF/AIS3_2017_writeup/pic/pikapika.jpg)
+![misc2flag](/pic/pikapika.jpg)
 
 flag就在裡面拉！
 

@@ -35,7 +35,7 @@ CTF/AIS3_2017/Pre_exam/Write_up.md
 
     https://quiz.ais3.org:31532/S74G32.php
 
-![misc2flag](/CTF/AIS3_2017_writeup/pic/pikapika.jpg)
+![misc2flag](/AIS3_2017_writeup/pic/pikapika.jpg)
 
 flag就在裡面拉！
 

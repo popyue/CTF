@@ -12,7 +12,7 @@
 
 - 題目
 
-![](/Practice_Site/ppc/pic/calculator1.png)
+![](/ppc/pic/calculator1.png)
 - nc 去看題目內容
 
 ![](/Practice_Site/ppc/pic/calculator2.png)

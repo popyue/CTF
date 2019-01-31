@@ -6,16 +6,16 @@
 - [pi](#pi)
 - [get-the-root](#root)
 - [hurry up](#hurry)
-- [lanbda](#lambda)
+- [lambda](#lambda)
 
 <h2 id=calculator>Calculator</h2>
 
 - 題目
 
-![](https://i.imgur.com/VR7mb5X.png)
+![](/Practice_Site/ppc/pic/calculator1.png)
 - nc 去看題目內容
 
-![](https://i.imgur.com/XNUWuQK.png)
+![](/Practice_Site/ppc/pic/calculator2.png)
 - 該題要能判斷題目給的數值，並回應是要給予+ /- or *
 - 會使用python 套件 pwntools
     - pwntools 用於解決將題目讀回來以及把答案送回去使用
@@ -55,10 +55,10 @@ print(d)
 
 - 題目
 
-![](https://i.imgur.com/8HhvcQT.png)
+![](/Practice_Site/ppc/pic/temperature1.png)
 - nc 去看題目內容
 
-![](https://i.imgur.com/XyZpnRF.png)
+![](/Practice_Site/ppc/pic/temperature2.png)
 - 該題要計算華氏轉攝氏，需要寫出一支華氏轉攝氏的程式
 - 會使用python 套件 pwntools
     - pwntools 用於解決將題目讀回來以及把答案送回去使用
@@ -90,10 +90,10 @@ print(d)
 
 - 題目
 
-![](https://i.imgur.com/PF8BHpl.png)
+![](/Practice_Site/ppc/pic/alphabet1.png)
 - nc 去看題目內容
 
-![](https://i.imgur.com/le9WrEb.png)
+![](/Practice_Site/ppc/pic/alphabet2.png)
 
 - 這題重點要***算出一個長字串中特定字元的數量***
 - 其實就是在考字串的處理，這在python 中有套件能夠套用直接解決
@@ -137,10 +137,10 @@ print(d)
 
 - 題目
 
-![](https://i.imgur.com/glnrocj.png)
+![](/Practice_Site/ppc/pic/pi1.png)
 - nc 去看題目內容
 
-![](https://i.imgur.com/mdDT752.png)
+![](/Practice_Site/ppc/pic/pi2.png)
 
 - 這題有點小小的bug，先來描述一下題目
 - 題目要求要算出pi 的值道題目指定的位數
@@ -260,10 +260,10 @@ print(d)
 
 - 題目
 
-![](https://i.imgur.com/dd8ADdM.png)
+![](/Practice_Site/ppc/pic/root1.png)
 - nc 去看題目內容
 
-![](https://i.imgur.com/USNowOh.png)
+![](/Practice_Site/ppc/pic/root2.png)
 - 該題會給予一串數值，並要求將該串值組成多次方程式，並解其根(root)
 - 同樣要寫程式去解根
 - 使用python 的兩個套件 pwntools、sympy
@@ -337,10 +337,10 @@ print(d)
 
 - 題目
 
-![](https://i.imgur.com/G3NCx7q.png)
+![](/Practice_Site/ppc/pic/hurry1.png)
 - nc 去看題目內容
 
-![](https://i.imgur.com/jqtaau0.png)
+![](/Practice_Site/ppc/pic/hurry2.png)
 - 該題主要就是在實作凱薩加密，會給一段被位移過的英文句子，也會給位移的位數(key)
 - 想辦法把原始句子算出
 - 會使用python 套件 pwntools
@@ -414,16 +414,16 @@ print(flag)
 - 但中間遇到的困難是在A-Z轉換成十進制後，進行shift運算時若超出A-Z的範圍該如何解決
 - 這方面基本上直接找Caesar Cipher 的實作可以蠻清楚找到答案
 
-![](https://i.imgur.com/ZwP3xm7.png)
+![](/Practice_Site/ppc/pic/hurry3.png)
 - [凱薩加密](https://inventwithpython.com/chapter14.html)
 
 <h2 id=lambda>lambda</h2>
 
 - 題目
-![](https://i.imgur.com/NGD9vMS.png)
+![](/Practice_Site/ppc/pic/lambda1.png)
 - nc 去看題目內容
 
-![](https://i.imgur.com/PNWucwO.png)
+![](/Practice_Site/ppc/pic/lambda2.png)
 - 本題重點:
     1. 判斷題目給的5條式子
     2. 判斷題目要求用哪條式子解題
@@ -533,7 +533,7 @@ print(d)
 - [lambda replace switch case on python](https://simonwillison.net/2004/May/7/switch/)
 - [lambda 運算式](https://openhome.cc/Gossip/Python/LambdaExpression.html)
 
-![](https://i.imgur.com/0vmlt9U.png)
+![](/Practice_Site/ppc/pic/lambda3.png)
 
 ## 相關實用Knowledge 
 ```

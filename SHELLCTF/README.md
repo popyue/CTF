@@ -144,35 +144,35 @@ Get The Flag : SHELL{T0k3ns_d0_m4tt3r_4e91af4506f384d460f0f0c6e9e5fe4a}
 
 - [Login Page](/SHELLCTF/Web/Login/index)
 
-![](/SHELLCTF/pic/Login_1)
+![](/SHELLCTF/pic/Login_1.png)
 
 - View Web Source, and there is a [main.js](/SHELLCTF/Web/Login/main.js) will be call
 
-![](/SHELLCTF/pic/Login_2)
+![](/SHELLCTF/pic/Login_2.png)
 
 - Let's see this JS file in Source Panel 
 - In the top of ```main.js``` file ,  it's a code snippet ise to check the user and password 
 - From that code snippet , we can know 
     1. user is : ```din_djarin11```
     2. password is : ```9ef71a8cd681a813cfd377817e9a08e5```
-![](/SHELLCTF/pic/Login_3)
+![](/SHELLCTF/pic/Login_3.png)
 
 - For Password part , it seems to be hash , let's try to decrypt it with [tools](https://cyber-99.co.uk/mesmerize/thm-crack-the-hash-ctf)
 - Get the password : ir0nm4n
 
-![](/SHELLCTF/pic/Login_4)
+![](/SHELLCTF/pic/Login_4.png)
 
 - Let's login , then we'll get a text file 
 - The Flag is in this file 
 
-![](/SHELLCTF/pic/Login_5)
+![](/SHELLCTF/pic/Login_5.png)
 
-![](/SHELLCTF/pic/Login_6)
+![](/SHELLCTF/pic/Login_6.png)
 
 
 - Get Flag : SHELL{th1s_i5_th3_wa7_845ad42f4480104b698c1e168d29b739}
 
-![](/SHELLCTF/pic/Login_7)
+![](/SHELLCTF/pic/Login_7.png)
 
 
 

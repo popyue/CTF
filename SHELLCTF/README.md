@@ -6,12 +6,11 @@
 
 1. [Collide](#collision)
 2. [Fun With Token](#FunWithToken)
+3. [Login](#login)
 
 ## Information
 
 - [Site](https://shellctf.games/challenges)
-
-
 
 
 ## Web Security 題目
@@ -139,6 +138,38 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InF2YV9xd25ldmExMSIsInBhc3N
 ![](/SHELLCTF/pic/FunWithToken_27.png)
 
 Get The Flag : SHELL{T0k3ns_d0_m4tt3r_4e91af4506f384d460f0f0c6e9e5fe4a}
+
+
+<h3 id='login'>Login</h3>
+
+- [Login Page](/SHELLCTF/Web/Login/index)
+- [](/SHELLCTF/pic/Login_1)
+
+- View Web Source, and there is a [main.js](/SHELLCTF/Web/Login/main.js) will be call
+- [](/SHELLCTF/pic/Login_2)
+
+- Let's see this JS file in Source Panel 
+- In the top of ```main.js``` file ,  it's a code snippet ise to check the user and password 
+- From that code snippet , we can know 
+    1. user is : ```din_djarin11```
+    2. password is : ```9ef71a8cd681a813cfd377817e9a08e5```
+- [](/SHELLCTF/pic/Login_3)
+
+- For Password part , it seems to be hash , let's try to decrypt it with [tools](https://cyber-99.co.uk/mesmerize/thm-crack-the-hash-ctf)
+- Get the password : ir0nm4n
+- [](/SHELLCTF/pic/Login_4)
+
+- Let's login , then we'll get a text file 
+- The Flag is in this file 
+- [](/SHELLCTF/pic/Login_5)
+- [](/SHELLCTF/pic/Login_6)
+
+
+- Get Flag : SHELL{th1s_i5_th3_wa7_845ad42f4480104b698c1e168d29b739}
+- [](/SHELLCTF/pic/Login_7)
+
+
+
 
 
 

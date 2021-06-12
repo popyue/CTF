@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Login</title>
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<div class="login-box">
+		<h1>Login</h1>
+		<div class="textbox">
+			<input type="text" placeholder="Username" id="username"/>
+		</div>
+		<div class="textbox">
+			<input type="password" placeholder="Password" id="password"/>
+		</div>
+		<input type="button" class="btn" value="Login" onclick="checkIt()"/>
+	</div>
+</body>
+</html>

@@ -22,7 +22,7 @@
 
 ![](/HSCTF/img/no-right-click_4.png)
 
-- flag : flag{keyboard_shortcuts_or_taskbar}
+- flag : ```flag{keyboard_shortcuts_or_taskbar}```
 
 
 <h3 id='digits-of-pi'>Digits-of-pi</h3>
@@ -54,7 +54,7 @@
 ![](/HSCTF/img/digits-of-pi_3.png)
 
 
-- Flag: flag{hidden_sheets_are_not_actually_hidden}
+- Flag: ```flag{hidden_sheets_are_not_actually_hidden}```
 
 
 <h3 id='message-board'>
@@ -103,7 +103,7 @@ message-board
 
 ![](/HSCTF/img/message-board_13.png)
 
-- flag : flag{y4m_y4m_c00k13s}
+- flag : ```flag{y4m_y4m_c00k13s}```
 - 
 ![](/HSCTF/img/message-board_16.png)
 
@@ -126,10 +126,50 @@ message-board
 ![](/HSCTF/img/aptenodytes-forsteri_4.png)
 
 
-- flag : QWERTYUIOP
+- flag : ```QWERTYUIOP```
 
 ## Algo 
 
+![](/HSCTF/img/not-really-math_1.png)
+
+![](/HSCTF/img/not-really-math_2.png)
+
+```
+import os 
+import sys
+from pwn import *
+
+host = 'not-really-math.hsc.tf'
+port = 1337
+r = remote(host,port)
+
+def solver(j):
+    j = j.replace('a', '+')
+    k = j.replace('m', ')*(')
+    return eval('(('+k+'))') % (pow(2,32)-1)
+
+    
+    
+r.recvline()
+for i in range(15):
+    subject = r.recvline().decode('UTF-8')
+    if ':' in subject:
+        subject = subject[1:]
+        if 'flag{' in subject : 
+            print("Flag found : {}".format(subject))
+            exit()
+    log.warning("Problem : {}".format(subject))
+    ans = solver(subject)
+    log.success("Answer : {}".format(ans))
+    r.sendline(str(ans))
+
+
+
+```
+
+![](/HSCTF/img/not-really-math_3.png)
+
+- flag : ```flag{yknow_wh4t_3ls3_is_n0t_real1y_math?_c00l_m4th_games.com}```
 
 
 ###### tags: `CTF` `Security` `HSCTF` `2021`

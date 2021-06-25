@@ -9,4 +9,5 @@ ignorefile/secret.txt
 # 忽略所有 db 目錄下附檔名是 .sqlite3 的檔案
 #/db/*.sqlite3
 
-
+# ignore all the file in the ignorefile
+ignorefile/*
